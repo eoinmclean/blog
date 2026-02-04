@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction Post"
 date: 2026-02-02
+author: "Eoin Mclean"
 ---
 
 ## Setup experience

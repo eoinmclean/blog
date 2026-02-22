@@ -46,3 +46,8 @@ author: "Eoin Mclean"
 - **Size:** 5
 - **Depends on:** Story 5
 
+## ER Diagram (LucidChart)
+
+![ER Diagram]( /blog/assets/img/lab6/erd.png )
+
+

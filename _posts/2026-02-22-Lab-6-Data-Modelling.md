@@ -48,6 +48,10 @@ author: "Eoin Mclean"
 
 ## ER Diagram (LucidChart)
 
-![ER Diagram]( /blog/assets/img/lab6/erd.png )
+![ER Diagram]( /assets/lab6/erd.png )
+
+## Redgate Schema
+
+![Redgate Schema]( /assets/lab6/redgate.png)
 
 

@@ -52,6 +52,6 @@ author: "Eoin Mclean"
 
 ## Redgate Schema
 
-![Redgate Schema]( /blog/assets/lab6/)
+![Redgate Schema]( /blog/assets/lab6/sqllite.png)
 
 

@@ -54,4 +54,10 @@ author: "Eoin Mclean"
 
 ![Redgate Schema]( /blog/assets/lab6/sqllite.png)
 
+## Reflection
 
+To build this model, I identified the core entities described in the scenario: Customer, Manufacturer, Item, Order, and OrderItem. Customers place orders, manufacturers produce items, and orders contain multiple items. Because orders and items have a many-to-many relationship, I introduced the OrderItem table to store quantity, substitution preference, and special instructions for each item in an order.
+
+The ER diagram represents the logical structure of the system, focusing on entities, attributes, and cardinality. It shows one-to-many relationships between Customer and Order, Manufacturer and Item, and Order and OrderItem. The SQL schema represents the physical implementation of this design in a database. Each entity becomes a table with defined data types, primary keys, and foreign keys that enforce referential integrity.
+
+Overall, I am satisfied with the data representation because it accurately models the ordering process and maintains clear relational structure. One complication in implementation would be managing inventory updates when multiple customers place orders simultaneously. Another challenge would be enforcing that finalized orders cannot be modified, which would require additional application logic or database constraints. Despite these considerations, the schema provides a solid foundation for an online grocery ordering system.
